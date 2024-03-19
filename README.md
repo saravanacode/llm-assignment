@@ -26,13 +26,16 @@ To run this app
 
 1.) git clone the repository ```https://github.com/saravanacode/llm-assignment.git```
 2.) Then into the project directory and run ```streamlit run app.py```
+3.) Download the model from [here](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q2_K.gguf?download=true)
 
 
 ##Working 
 
 1.) The app get pdf,txt,img,csv or any file and process it as chunks and convert it into embedding with sentence transformer (all-MiniLM-L6-v2)
+
 2.) Then it procces it as vectors and the vectors are passed with the client prompt to get the appropiate results with the llama.cpp model(mistral-7b-instruct-v0.1.Q2_K.gguf)
 
 ##POINTS
 1.) This app can only run in cuda or gpu devices 
+
 2.) if you dont have gpu run ths in colab with document_chatbot.ipynb or with this link

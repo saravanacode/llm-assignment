@@ -76,7 +76,7 @@ def main():
     st.title("Multi-PDF ChatBot using Mistral-7B-Instruct :books:")
     # Initialize Streamlit
     st.sidebar.title("Document Processing")
-    uploaded_files = st.sidebar.file_uploader("Upload files", accept_multiple_files=True)
+    uploaded_files = st.sidebar.file_uploader("Upload files", accept_multiple_files=True, max_upload_size=100)
 
 
     if uploaded_files:

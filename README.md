@@ -24,8 +24,8 @@ In this project you find 2 directories
 
 To run this app
 
-1.) git clone the repository https://github.com/saravanacode/llm-assignment.git
-2.) Then into the project directory and run streamlit run app.py
+1.) git clone the repository ```https://github.com/saravanacode/llm-assignment.git```
+2.) Then into the project directory and run ```streamlit run app.py```
 
 
 ##Working 
